@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: arial;
+}
+
+html {
+
+    background: linear-gradient(white, #cacfdc);
+}
+
+.main_header {
+    min-height: 80px;
+    background-color: #690099;
+}
+
+.main_head {
+    width: 1000px;
+    margin: 0 auto;
+    min-height: 80px;
+}
+
+.left_header {
+    float: left;
+    width: 60%;
+}
+
+.left_header a {
+    line-height: 70px;
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+.right_header {
+    float: right;
+    width: 38%;
+}
+
+.log_in {
+    font-size: 12px;
+}
+
+.email_login {
+    line-height: 23px;
+    color: white;
+    width: 30%;
+}
+
+.email_login_right {
+    margin-left: 15%;
+}
+
+.forgot_pass {
+    margin-left: 46%;
+    text-decoration: none;
+    color: white;
+    line-height: 25px;
+}
+
+.input_login {
+    padding: 2px;
+    width: 35%;
+}
+
+.submit {
+    padding: 0 5px;
+    color: white;
+    background-color: #690099;
+    border: 1px solid #ccc;
+    cursor: pointer;
+
+}
+
+.container {
+    width: 1000px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    background: linear-gradient(white, #D3D8E8);
+}
+
+.left_content {
+    float: left;
+    width: 60%;
+}
+
+.left_content h2 {
+    margin-top: 20px;
+}
+
+.left_content img {
+    margin-top: 20px;
+}
+
+.right_content {
+    float: right;
+    width: 38%;
+}
+
+.right_content h1 {
+    margin-top: 20px;
+}
+
+.right_content p {
+    margin: 10px 0;
+}
+
+.right_content input {
+    padding: 10px 15px;
+    margin: 10px 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+::placeholder {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+#firstname,
+#surename {
+    width: 40%;
+}
+
+#email,
+#password {
+    width: 90%;
+}
+
+.birthday_box select {
+    padding: 7px 17px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border: 1px solid #ccc;
+}
+
+.birthday_box select option {
+    text-transform: capitalize;
+}
+
+.birthday_box h2 {
+    margin: 10px 0;
+}
+
+.end_text {
+    font-size: 12px;
+}
+
+.sign_up {
+    background-color: #690099;
+    color: white;
+    cursor: pointer;
+}
+
+.more_inf {
+    background-color: black;
+    color: white;
+    padding: 2px 5px;
+    padding-top: 2px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    border-radius: 50%;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+/* =========developer option========= */
+.lang_div {
+    display: inline-block;
+    margin: 0px 10px;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.developer_option {
+    width: 100%;
+    background-color: #FFFFFF;
+    height: 200px;
+}
+
+.language_div {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding-top: 40px;
+    padding-bottom: 15px;
+
+}
+
+.language_div a {
+    text-decoration: none;
+}
+
+.finish_div {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.finish_p {
+    display: inline-block;
+    font-size: 12px;
+    margin: 0px 6px;
+    text-transform: capitalize;
+}
+
+.finish_p a {
+    text-decoration: none;
+}
+
+.developer {
+    padding: 10px 5px;
+    font-size: 11px;
+}
+
+.end_text1 {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
